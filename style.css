@@ -1,0 +1,907 @@
+body{
+    height: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+.mobail{
+  position: relative;
+    width:400px ;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-image: url(Image/p0101_m.jpg);
+}
+
+
+.main{
+    background-image: url(Image/p0101_m.jpg);
+    border-radius: 0 0 30px 30px;
+}
+
+.syouhin{
+  border-radius: 0px 0 30px 30px;
+}
+
+.top img{
+    width: 100%;
+    background-color: white;
+}
+
+  .kiro{
+    width: 100%;
+    height: 50px;
+    background-color: #FFE500;
+  }
+
+#ranking{
+    background-color: #FFFACE;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+.ranking_img{
+  width: 15%;
+  position: absolute;
+  display: flex;
+}
+
+.ranking1, .ranking2,.ranking3{
+      position: absolute;
+    
+    }
+
+.ranking1 {
+  margin-top: 153px;
+  margin-left: 79px;
+}
+
+.ranking2 {
+  margin-top: 35px;
+  margin-left: 150px;
+}
+
+.ranking3 {
+  margin-top: 127px;
+  margin-left: 221px;
+}
+
+.child1,.child2,.child3 {
+    display: inline-block;  
+    vertical-align: bottom;
+    background-color: #fff;
+    width: 4em;
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+#new_item, #otonagai{
+    background-color: #fff;
+    width: 100%;
+}
+
+h1{
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: auto 0;
+}
+
+.news{
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.koara{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+img.koara1 {
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.koara2{
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+.box{
+   position: relative;
+    width: 100%;
+    height: 400px;
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius:30px 0 0 30px;
+    background-color: #FFFACE;
+}
+
+.box_news{
+  width: 100%;
+  height: 340px;
+ margin: 30px;
+  border-radius:30px 0 0 30px;
+  background-color: #ffffff;
+}
+
+h2 {
+   position: absolute;
+    padding: 1rem 2rem;
+    background-color: #FFE500;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-left: 12%;
+  }
+
+  #menu{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+h1{
+    position: relative;
+    padding: 1rem 2rem;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+  #otonagai{
+    background: #fff;
+    width: 100%;
+    margin-bottom: 130px;
+  }
+
+  footer{
+    margin-top: 30px;
+    background-color: #FFE500;
+    width: 100%;
+    height: 100px;
+  }
+
+
+  /* 商品ページ */
+  .search-form-002 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #2589d0;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.search-form-002 input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-002 input::placeholder{
+    color: #767d83;
+}
+
+.search-form-002 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-form-002 button::after {
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.tab-group{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.tab{
+  flex-grow: 1;
+  padding:5px;
+  list-style:none;
+  border:solid 1px #CCC;
+  text-align:center;
+  cursor:pointer;
+  background: #FFF;
+}
+.panel-group{
+  height:auto;
+  border-top:none;
+}
+.panel{
+  display:none;
+}
+.tab.is-active{
+  background:rgb(255, 118, 118);
+  color:#FFF;
+  transition: all 0.2s ease-out;
+}
+.panel.is-show{
+  display:block;
+}
+
+
+.flex_test-box {
+  padding:  10px;             /* 余白指定 */
+  display: flex;              /* フレックスボックスにする */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_test-box {
+  padding: 30px 0 0 0;             /* 余白指定 */
+  display: flex;              /* フレックスボックスにする */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_test-box1 {
+  padding:  10px;             /* 余白指定 */
+  display: flex;              /* フレックスボックスにする */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_test-item {
+  padding: 10px;              /* 文字色 */
+  margin: 0 15px 0 15px;        /* 外側の余白 */
+  border-radius:  5px;        /* 角丸指定 */
+  font-size:  30px;           /* 文字サイズ */
+  width: 120px;               /* 幅指定 */
+  text-align:  center;        /* 文字中央揃え */
+}
+
+.pagination-001 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.pagination-001 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  border: 1px solid #2589d0;
+  border-radius: 25px;
+  color: #2589d0;
+}
+
+.pagination-001 a:not(:hover) {
+  text-decoration: none;
+}
+
+.pagination-001 .current a {
+  /* background-color: #2589d0; */
+  color: #2589d0;
+  pointer-events: none;
+}
+
+
+/* 目次 */
+.timeline-003 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+@media screen and (min-width: 429px) {
+    body {
+        width: 100%;
+        background-image: url(../おかし/Image/商品一覧.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .top {
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+}
+
+@media screen and (max-width: 864px) {
+.header{
+  display: none;
+}
+  .b{
+  display: none;
+}
+  }
+
+  .b {
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 208px;
+    height: 338px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.button-002 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  margin:0 auto;
+  padding: .9em 2em;
+  border: none;
+  border-radius: 25px;
+  background-color: #2589d0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.button-002:hover {
+  background-color: #1579c0;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 100%;
+        background-image: url(../おかし/Image/商品一覧.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .top {
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    
+}
+
+.header{
+  position: fixed;
+  top: 50px;
+  margin-left: 70%;
+  margin-top: 10%;
+  overflow-y: auto;
+}
+
+ul{
+  list-style: none;
+  color: #666;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.ranking{
+  width: 15%;
+  margin-top: 30px;
+  margin-right: 2px;
+  padding: 8px;
+}
+
+.list-009 {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list-009 li {
+  padding: .5em;
+}
+
+.list-009 li:not(:last-child) {
+  border-bottom: 1px dashed #2589d0;
+}
+
+.list-009 li::marker {
+  color: #2589d0;
+  font-size: 1.1em;
+}
+
+.scroll_content { /* リスト全体のスタイル */
+  display: flex;
+  max-width: 800px;
+  margin: 5px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.scroll_content li { /* 各リストのスタイル */
+  list-style: none;
+  margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.scroll_content img { 
+  width: 90px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.scroll_content::-webkit-scrollbar {
+  height: 12px; /* スクロールバーの高さ */
+}
+
+.scroll_content::-webkit-scrollbar-thumb {
+  background: #aaa; /* ツマミの色 */
+  border-radius: 6px; /* ツマミ両端の丸み */
+}
+
+.scroll_content::-webkit-scrollbar-track {
+  background: #ddd; /* トラックの色 */
+  border-radius: 6px; /* トラック両端の丸み */
+}
+
+
+.item-tittle{
+  width: 10%;
+}
+
+/* 商品 */
+
+h3.item_name {
+  font-size: 15px;
+  margin: 0;
+  }
+
+  p.price {
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.header li{
+   margin-bottom: 15px;
+}
+
+
+.cssbuttons-io-button {
+ margin-bottom: 20px;
+ margin-top: 20px;
+
+  background: #ffcc4a;
+  color: rgb(65, 65, 65);
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  margin-top: 5px;
+  transition: transform 0.3s;
+  color: #4f4f4f;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+
+
+
+img {
+  width: 99%;
+}
+
+.main_header{
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  margin: 20px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  border-radius: 20px;
+}
+
+h4{
+  font-size: 30px;
+  margin: auto;
+  margin-left: 20px;
+  height: 50px;
+}
+
+
+
+
+.drawer_hidden {
+  display: none;
+}
+
+
+.drawer_open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  cursor: pointer;
+  margin-left: 340px;
+  margin-top: 43px;
+}
+
+.drawer_open2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  cursor: pointer;
+  margin-left: 371px;
+    margin-top: -30px;
+}
+
+
+
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after,
+.drawer_open2 span,
+.drawer_open2 span:before,
+.drawer_open2 span:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 25px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer_open span:before,
+.drawer_open2 span:before {
+  bottom: 8px;
+}
+
+.drawer_open span:after,
+.drawer_open2 span:after {
+  top: 8px;
+}
+
+#drawer_input:checked ~ .drawer_open span
+#drawer_input:checked ~ .drawer_open2 span {
+  background: rgba(255, 255, 255, 0);
+}
+
+#drawer_input:checked ~ .drawer_open span::before
+#drawer_input:checked ~ .drawer_open2 span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#drawer_input:checked ~ .drawer_open span::after
+#drawer_input:checked ~ .drawer_open2 span::after
+ {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.nav_content {
+  width: 403px;
+  height: 100%;
+  position: fixed;
+  bottom: 100%;
+  z-index: 99;
+  background: rgb(255, 198, 112);
+  transition: .5s;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+
+.nav_list {
+  list-style: none;
+  margin-top: 50%;
+  line-height: 50px;
+    font-size: 30px;
+}
+
+.nav_item a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: -25px;
+}
+
+#drawer_input:checked ~ .nav_content {
+  bottom: 0;
+}
+
+.balloon2{
+  position: absolute;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  transform: rotate(-15deg);
+  margin-left: 10px;
+  margin-top: -20px;
+  border-radius: 48px;         /* 角丸を指定 */
+}
+/* 三角アイコン - 枠線付きの吹き出し */
+/* アイコンを下に表示 */
+.balloon2::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 60px;
+  bottom: -15px;
+  border-top: 15px solid #000000;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+.balloon2::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 60px;
+  bottom: -12px;
+  border-top: 15px solid #ffffff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+
+img.oukan {
+  margin-left: 172px;
+  width: 15%;
+  position: absolute;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+img.air {
+  width: 30%;
+  position: absolute;
+  margin-top: -73px;
+  transform: rotate(10deg);
+  margin-left: 267px;
+}
+
+img.niwatori {
+  width: 50%;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 200px;
+}
+
+.top_text{
+  position: absolute;
+  text-align: end;
+  margin-top: 365px;
+  line-height: 40px;
+  margin-left: 28%;
+}
+
+.text1, .text2, .text3{
+  background-color: white;
+  margin: 5px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+h3.newname {
+  margin: 0;
+  font-size: 0.5em;
+  text-align: center;
+  }
+
+  p.newprice {
+    margin: 0;
+    text-align: center;
+}
+
+nav.syouhin_header {
+  background-color: white;
+  height: 50px;
+}
+
+img.inu {
+  position: absolute;
+  width: 30%;
+  margin-top: -80px;
+  margin-left: 240px;
+}
+
+
+.tab-panel {
+  margin-bottom: 80px;
+}
+
+li.text1 {
+  width: 140px;
+  margin-left: 90px;
+}
+
+li.text2 {
+  width: 176px;
+  margin-left: 55px;
+}
+
+
+.fo-mu {
+  margin-top: 20px;
+}
+
+img.cart {
+  position: absolute;
+  width: 13%;
+  right: 50px;
+  margin-top: -55px;
+}
+
+a.btn_12 {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem 1rem 3rem;
+	font-weight: bold;
+	background: #27acd9;
+	color: #fff;
+	border-radius: 100vh;
+	position: relative;
+	transition: 0.5s;
+}
+
+a.btn_12:hover {
+	background: #44c6f2;
+	color: #fff;
+}
+
+p.footer {
+  /* margin: auto; */
+  text-align: center;
+  /* margin-top: 50%; */
+  padding-top: 50px;
+}
+
+h4.syouhin_logo {
+  height: auto;
+}
+
+h4.logo {
+  padding-top: 4px;
+}
+
+
+ .loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFC608;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.loading.active {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+.wrap {
+    letter-spacing: 0.15em;
+    font-size: 17px;
+    color:     #4B2A08;
+    font-family: 'Rowdies', cursive;
+    margin-left: 19px;
+}
+
+.wrap span {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap span::before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    animation: text_anime 3.5s infinite;
+} 
+
+@keyframes text_anime {
+  0% {
+      transform: translateX(0%);
+  }
+
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+

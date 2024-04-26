@@ -1,0 +1,277 @@
+#syouhin_main{
+    width: 100%;
+    height: auto;
+    background-color: #FFE500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.syouhin_box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.text{
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+}
+
+  
+  /* IE11 hide native button (thanks Matt!) */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .counter:after {
+    font: 17px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    /*Adjust for position however you want*/
+    
+    top: 18px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #999;
+    /*left line */
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .counter select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    margin-left: 70px;
+    display: block;
+    /* width: 100%; */
+    max-width: 320px;
+    height: 50px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+
+.bot{
+    margin-bottom: 30px;
+}
+
+  a.btn_02 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	transition: 0.5s;
+    margin-top: 20px;
+}
+
+a.btn_02:hover {
+	color: #27acd9;
+	background: #fff;
+}
+
+a.btn_03 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #fd4d4d;
+	background: #fd4d4d;
+	color: #fff;
+	transition: 0.5s;
+    margin-top: 20px;
+}
+
+a.btn_03:hover {
+	color: #fd4d4d;
+	background: #fff;
+}
+
+th,td {
+    border: solid 1px;      
+    width: 10%;
+    text-align: center        /* 枠線指定 */
+}
+ 
+table {
+    border-collapse:  collapse;     /* セルの線を重ねる */
+    margin: 20px 30px 0 30px;
+}
+
+.box1 {
+    padding: 1em 1em;
+   margin: 30px;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+.search-form-001 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #2589d0;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+
+.search-form-001 input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-001 input::placeholder{
+    color: #767d83;
+}
+
+.search-form-001 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-form-001 button::after {
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.search-form-003 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #2589d0;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+
+.search-form-003 input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-003 input::placeholder{
+    color: #767d83;
+}
+
+.search-form-003 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-form-003 button::after {
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+img.inu2 {
+    position: absolute;
+    width: 30%;
+    margin-top: -15px;
+    margin-left: 240px;
+  }
+  
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #767d83;
+    background-color: white;
+}
+  .breadcrumb li:not(:last-of-type)::after {
+    content: "›";
+    margin: 0 .6em; /* 記号の左右の余白 */
+    color: #777; /* 記号の色 */
+  }
+
+  .flex_test-box3 {           /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    justify-content: center;
+  }
+
+  .flex_test-item3 {
+    padding: 10px;              /* 文字色 */
+    margin: 0 15px 0 15px;        /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    font-size:  30px;           /* 文字サイズ */
+    width: 120px;               /* 幅指定 */
+    text-align:  center;        /* 文字中央揃え */
+  }
+
+
+  p.tittle {
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 43%;
+    /* text-align: center; */
+    /* margin: auto; */
+    justify-content: center;
+}

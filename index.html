@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>駄菓子屋</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <div id="loading" class="loading active">
+
+    <script language="JavaScript">
+
+        myImageCnt = 1;
+        myImage = new Array(
+        "img/loading.gif"
+        );
+        myNowCnt = 0;
+        function myChange(){
+        if (myNowCnt == myImageCnt-1) {
+        myNowCnt=0;
+        } else {
+        myNowCnt++;
+        }
+        document.myFormImg.src = myImage[myNowCnt];
+        setTimeout( "myChange()" , 5000 );
+        }
+
+    </script>
+
+    <div class="loadingImage">
+
+        
+
+        <p class="wrap">
+
+            <span><font color="#E21606">Now</font> Loading...</span>
+
+        </p>
+
+    </div>
+
+
+    <script language="JavaScript">
+
+        myChange();
+
+    </script>
+
+</div>
+<header class="header">
+  
+  <div class="b">
+    <button class="button-002">カート</button>
+  <ul>
+      <li><a href="">TOP</a></li>
+      <li><a href="">人気ランキング</a></li>
+      <li><a href="index.html#new_item">お知らせ</a></li>
+      <li><a href="index.html#menu">お菓子一覧</a></li>
+      <li><a href="index.html#otonagai">セット商品</a></li>
+     </ul>
+  </div>
+</header> 
+
+    
+    <div class="mobail">
+      
+            <div class="top">
+              <div class="nav">
+
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+
+                <!-- メニュー -->
+                <nav class="nav_content">
+                  <ul class="nav_list">
+                    <li class="nav_item"><a href="">ホーム</a></li>
+                    <li class="nav_item"><a href="">商品一覧</a></li>
+                  </ul>
+                </nav>
+
+                
+              
+              <nav class="main_header">
+                <h4 class="logo">logo</h4>
+                </div>
+                  <ul class="top_text">
+                    <li class="text1">昔ながらお菓子を</li>
+                    <li class="text2">家にいながら味わえる</li>
+                    <li class="text3">いつまで経っても子供気分を</li>
+                  </ul>
+              
+            
+                <img src="Image/Rectangle 41.png" alt="">
+                
+            </div>
+            
+            <div class="main">
+                <div class="kiro"></div>
+                <div class="balloon2">
+                  人気ランキング
+                </div>
+                <img src="Image/oukan_kazari.png" class="oukan" alt="">
+            <section id="ranking">
+              <div class="ranking_img">
+                <a href="sirokuma.html"><img src="Image/二位.png" class="ranking1" alt=""></a>
+                <a href="hue.html"><img src="Image/一位.png" class="ranking2" alt=""></a>
+                <a href="cake.html"><img src="Image/三位.png" class="ranking3" alt=""></a>
+              </div>
+                   
+                <div class="parent">
+                    <div class="child1"  style="height: 6em">2</div>
+                    <div class="child2" style="height: 8em">1</div>
+                    <div class="child3" style="height: 4em">3</div>
+                </div>
+            </section>
+                  <img src="Image/airplane-01.png" class="air" alt="">
+            <section id="new_item">
+                <h1 class="new_titte">新しいお菓子</h1>
+                <ul class="scroll_content">
+                    <li>
+                      <a href="yakisoba.html"><img src="Image/焼きそば.jpg"></a>
+                      <h3 class="newname">焼きそば</h3>
+                      <p class="newprice">¥85
+                    </li>
+                    <li>
+                      <a href="pepe.html"><img src="Image/ペペロンチーノ.jpg"></a>
+                      <h3 class="newname">ペペ</h3>
+                      <p class="newprice">¥85
+                    </li>
+                    <li>
+                      <a href="ramen.html"><img src="Image/バトルラーメン.png"></a>
+                      <h3 class="newname">ラーメン</h3>
+                      <p class="newprice">¥85
+                    </li>
+                    <li>
+                      <a href="poteto.html"><img src="Image/ポテトフライ.jpg"></a>
+                      <h3 class="newname">ポテト</h3>
+                      <p class="newprice">¥55
+                    
+                    </li>
+                    <li>
+                      <a href="gumi.html"><img src="Image/ピザグミ.jpg"></a>
+                      <h3 class="newname">ピザグミ</h3>
+                      <p class="newprice">¥100</p>
+                    </li>
+                  </ul>
+            </section>
+
+
+            <section class="news">
+                <div class="koara">
+                    <img src="Image/koara 1.png" class="koara1">
+                    <img src="Image/koara 2.png" class="koara2">
+                </div>
+                <div class="box">
+                    <div class="box_news">
+                        <ul class="list-009">
+                            <li>全品セール中</li>
+                            <li>セット商品でお得</li>
+                            <li>新しい商品販売中</li>
+                            <li>今週のランキング</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <h2><a href="syouhin.html"></a>お菓子一覧</h2>
+            <section id="menu">
+                    <div class="panel tab-A is-show">
+                      <div class="flex_test-box">
+                          <div class="flex_test-item">
+                            <a href="yakisoba.html"><img src="Image/焼きそば.jpg" alt=""></a>
+                            <h3 class="item_name">焼きそば</h3>
+                            <p class="price">¥85
+                            </p>
+                            
+                          </div>
+                          <div class="flex_test-item">
+                            <a href="poteto.html"><img src="Image/ポテトフライ.jpg" alt=""></a>
+                            <h3 class="item_name">ポテト<br>チキン味</h3>
+                            <p class="price">¥50</p>
+                           
+                          </div>
+                          </div>
+                          <div class="flex_test-box1">
+                            <div class="flex_test-item">
+                              <a href="pepe.html"><img src="Image/ペペロンチーノ.jpg" alt=""></a>
+                              <h3 class="item_name">ペペ</h3>
+                              <p class="price">¥85</p>
+                        
+                            </div>
+                            <div class="flex_test-item">
+                              <a href="gumi.html"><img src="Image/ピザグミ.jpg" alt=""></a>
+                              <h3 class="item_name">ピザグミ</h3>
+                              <p class="price">¥77</p>
+                              
+                            </div>
+                            </div>
+                            <div class="flex_test-box1">
+                                <div class="flex_test-item">
+                                  <a href="ramen.html"><img src="Image/バトルラーメン.png" alt=""></a>
+                                  <h3 class="item_name">ラーメン</h3>
+                                  <p class="price">¥85</p>
+                                  
+                                </div>
+                                <div class="flex_test-item">
+                                  <a href="kyabetu.html"><img src="Image/キャベツ太朗.jpg" alt=""></a>
+                                  <h3 class="item_name">キャベツ太朗</h3>
+                                  <p class="price">¥55</p>
+                                 
+                                </div>
+                                <button class="cssbuttons-io-button"> 商品一覧
+                                  
+                                    <div class="icon">
+                                      <a href="syouhin.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg></a>
+                                    </div>
+                                  
+                                    
+                                  </button>
+                                </div>
+                          </div>
+
+            </section>
+            
+            <section id="otonagai">
+                <h1 class="otonagai_tittle">セット商品</h1>
+                <ul class="scroll_content">
+                  <li>
+                    <a href="pizagumihako.html"><img src="Image/ピザグミ（箱）.jpg"></a>
+                    <h3 class="newname">ピザグミ</h3>
+                      <p class="newprice">¥888
+                  </li>
+                  <li>
+                    <a href="umaihako.html"><img src="Image/うまい棒はこ.jpg"></a>
+                    <h3 class="newname">うまい棒</h3>
+                      <p class="newprice">¥789
+                  </li>
+                  <li>
+                    <a href="sunaku.html"><img src="Image/スナックセット.jpg"></a>
+                    <h3 class="newname">スナック</h3>
+                    <p class="newprice">¥850
+                  </li>
+                  <li>
+                    <a href="umai.html"><img src="Image/うまい棒セット.jpg"></a>
+                    <h3 class="newname">うまい棒</h3>
+                      <p class="newprice">¥555
+                  </li>
+                  <li>
+                    <a href="gumihako.html"><img src="Image/サワーグミ.jpg"></a>
+                    <h3 class="newname">グミ</h3>
+                      <p class="newprice">¥678
+                  </li>
+                  </ul>
+            </section>
+            <img src="Image/鶏.png"  class="niwatori">
+            <footer><p class="footer">&copy;sakuragi</p></footer>
+            </div>
+        </div>
+
+        
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="style.js"></script>
+</html>
